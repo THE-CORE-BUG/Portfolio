@@ -55,7 +55,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/Portfolio"
+                to="/"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home

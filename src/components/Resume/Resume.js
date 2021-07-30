@@ -7,7 +7,7 @@ import pdf from "../../Assets/Ritam's Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const sem="Till 5th Sem";
+  
   const cgpa = 8.5;
 
 
@@ -50,7 +50,7 @@ function Resume() {
             <Resumecontent
               title="B.Tech with IT at Techno Main Salt Lake "
               date="2018 - Present"
-              content={[`CGPA: ${cgpa} (${sem})`]}
+              content={[`CGPA: ${cgpa}`]}
             />
             <Resumecontent
               title="12TH BOARD [The Aryans School,West Bengal]"

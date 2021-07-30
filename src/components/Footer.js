@@ -8,7 +8,7 @@ function Footer() {
   useEffect(() => {
     const timer = setInterval(setTime(new Date()),1000);
     return () => clearInterval(timer)
-  })
+  },[time])
 
   return (
     <Container fluid className="footer">

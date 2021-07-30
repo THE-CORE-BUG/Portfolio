@@ -17,7 +17,7 @@ function Resume() {
       <Container fluid>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" className="custom-btn"  href={pdf} target="_blank" style={{background: '#FF5C2E',border: 'none'}}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>

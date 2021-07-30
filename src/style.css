@@ -577,3 +577,15 @@ html {
   border: 2px solid #8a49a8;
 }
 
+.custom-btn
+{
+  padding: 10px !important;
+  transition: 0.3s ease;
+}
+.custom-btn:hover
+{
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  background-color: red !important;
+  transition: 0.3s ease;
+}

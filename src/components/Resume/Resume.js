@@ -8,7 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   
-  const cgpa = 8.5;
+  const cgpa = 8.7;
 
 
   return (
